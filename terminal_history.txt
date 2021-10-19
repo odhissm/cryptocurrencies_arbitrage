@@ -1,0 +1,50 @@
+  559  ls 0l
+  560  pwd
+  561  ls -l
+  562  git clone https://c40d4db508c6f1741a5493c501b404f0ec9f1963@github.com/odhissm/cryptocurrencies_arbitrage.git
+  563  ls -l
+  564  cd cryptocurrencies_arbitrage/
+  565  git status
+  566  git pull
+  567  git status
+  568  git add README.md 
+  569  git status
+  570  git commit -m 'Updated README.md'
+  571  git status
+  572  git push origin master
+  573  git status
+  574  git pull
+  575  git push origin main
+  576  git status
+  577  git pull
+  578  pwd
+  579  git status
+  580  git add crypto_arbitrage_app/
+  581  git status
+  582  git commit crypto_arbitrage_app/Resources/bitstamp.csv crypto_arbitrage_app/Resources/coinbase.csv crypto_arbitrage_app/crypto_arbitrage.ipynb 
+  583  git status
+  584  git commit crypto_arbitrage_app/Resources/bitstamp.csv crypto_arbitrage_app/Resources/coinbase.csv crypto_arbitrage_app/crypto_arbitrage.ipynb -m 'Uploading initial application directory structure, resource files for coinbase and bitstamp and the Jupyter notebook script'
+  585  git push origin main
+  586  git status
+  587  git add crypto_arbitrage_app/crypto_arbitrage.ipynb 
+  588  git status
+  589  git commit crypto_arbitrage_app/crypto_arbitrage.ipynb -m 'Updated crypto_arbitrage.ipynb  to clean up and get the input data ready for analysis' 
+  590  git status
+  591  git push origin main
+  592  git status
+  593  git add crypto_arbitrage_app/crypto_arbitrage.ipynb 
+  594  git status
+  595  git commit crypto_arbitrage_app/crypto_arbitrage.ipynb -m 'Updated crypto_arbitrage.ipynb  with statistical analysis and visual plots ' 
+  596  git push origin main
+  597  git pull
+  598  git status
+  599  git add crypto_arbitrage_app/crypto_arbitrage.ipynb 
+  600  git status
+  601  git commit crypto_arbitrage_app/crypto_arbitrage.ipynb -m 'Updated crypto_arbitrage.ipynb  more update on statistical analysis and visual plots and arbitrage functions ' 
+  602  git push origin main
+  603  git status
+  604  git add README.md 
+  605  git commit README.md -m 'Updated README.md added Jupyter notebook documentation link ' 
+  606  git push origin main
+  607  pwd
+  608  history 50 > terminal_history.txt
