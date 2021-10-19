@@ -4,9 +4,10 @@ This is a repository for arbitrage of cryptocurrencies like Bitcoin, Ethereum, C
 
 # Crypto Currencies Arbitrage Application: new application for analysis
 
-Loan Qualifier Application is a fintech lending software used to match customers with loans that they qualify for from differnt institutions. 
+Crypto Currencies Arbitrage Application is a fintech market analysis software used to research possible profitable opportunities in captital market trading arbitrage.
+ 
 
-The current project is to enhance the application with a new feature that will prompt the user to save the qualifying loans to a new CSV file.
+The current project is the inital design and development of the application to get MVP that can be tested on the current market cycle.
 
 ---
 
@@ -17,6 +18,8 @@ This project leverages python 3.7 with the following packages:
 
 * [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
+*[Jupyter](https://jupyter.org/documentation) - For documentation
+
 ---
 
 ## Installation Guide
@@ -26,6 +29,7 @@ Before running the application first install the following dependencies.
 ```python
   pip install fire
   pip install questionary
+  pip install jupyterlab
 ```
 run the commands as shown on the terminal in the image below.
 
@@ -36,11 +40,11 @@ run the commands as shown on the terminal in the image below.
 
 To use the loan qualifier application simply clone the repository and run the **app.py** with the:
 
-```python
-python app.py 
-```
+```jupyter
+from command line type
 
-![loan qualifier CLI](Images/loan-qualifier-cmd.jpg)
+jupyter lab
+```
 
 ---
 
